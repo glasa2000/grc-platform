@@ -1,0 +1,8 @@
+Organization
+├── id (UUID)
+├── name
+├── industry
+├── employee_count
+├── created_at
+├── subscription_tier
+└── settings (JSON)

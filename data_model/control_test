@@ -1,0 +1,10 @@
+ControlTest
+├── id (UUID)
+├── control_id (FK)
+├── tester_id (FK - User)
+├── test_date
+├── test_result (passed, failed, partial)
+├── evidence_url
+├── notes
+├── next_test_date
+└── created_at

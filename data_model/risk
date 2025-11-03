@@ -1,0 +1,19 @@
+Risk
+├── id (UUID)
+├── organization_id (FK)
+├── title
+├── description
+├── category (strategic, operational, financial, compliance, technology)
+├── owner_id (FK - User)
+├── likelihood (1-5)
+├── impact (1-5)
+├── risk_score (calculated)
+├── inherent_risk_score
+├── residual_risk_score
+├── status (identified, assessing, treating, monitoring, closed)
+├── treatment_plan
+├── target_closure_date
+├── tags (array)
+├── created_by (FK - User)
+├── created_at
+└── updated_at

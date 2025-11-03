@@ -1,0 +1,9 @@
+ApprovalStage
+├── id (UUID)
+├── workflow_id (FK)
+├── stage_number
+├── approver_id (FK - User)
+├── status (pending, approved, rejected)
+├── comments
+├── action_date
+└── created_at

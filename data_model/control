@@ -1,0 +1,18 @@
+Control
+├── id (UUID)
+├── organization_id (FK)
+├── control_id (e.g., "AC-1")
+├── title
+├── description
+├── category (preventive, detective, corrective)
+├── framework (SOC2, ISO27001, NIST, custom)
+├── owner_id (FK - User)
+├── frequency (continuous, daily, weekly, monthly, quarterly, annual)
+├── last_tested_date
+├── next_test_date
+├── effectiveness_rating (1-5)
+├── status (active, inactive, remediation_needed)
+├── version_number
+├── parent_version_id (FK - self-referencing)
+├── created_at
+└── updated_at

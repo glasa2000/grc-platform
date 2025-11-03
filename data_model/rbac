@@ -1,0 +1,6 @@
+Role
+├── id (UUID)
+├── name
+├── description
+├── permissions (JSON array)
+└── is_system_role (boolean)

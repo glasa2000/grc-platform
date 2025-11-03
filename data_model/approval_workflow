@@ -1,0 +1,9 @@
+ApprovalWorkflow
+├── id (UUID)
+├── entity_type (policy, risk, issue, control)
+├── entity_id (UUID)
+├── workflow_template_id (FK)
+├── current_stage
+├── status (pending, approved, rejected)
+├── created_at
+└── completed_at

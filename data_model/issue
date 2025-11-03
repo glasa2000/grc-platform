@@ -1,0 +1,18 @@
+Issue
+├── id (UUID)
+├── organization_id (FK)
+├── title
+├── description
+├── priority (critical, high, medium, low)
+├── status (open, in_progress, pending_approval, resolved, closed)
+├── assignee_id (FK - User)
+├── reporter_id (FK - User)
+├── risk_id (FK - Risk, optional)
+├── root_cause
+├── remediation_plan
+├── due_date
+├── resolved_at
+├── resolution_notes
+├── tags (array)
+├── created_at
+└── updated_at

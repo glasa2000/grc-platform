@@ -1,0 +1,20 @@
+Policy
+├── id (UUID)
+├── organization_id (FK)
+├── title
+├── description
+├── content (rich text)
+├── category
+├── version_number
+├── status (draft, under_review, approved, published, retired)
+├── owner_id (FK - User)
+├── approver_id (FK - User)
+├── approved_at
+├── published_at
+├── review_frequency (days)
+├── next_review_date
+├── parent_version_id (FK - self-referencing)
+├── tags (array)
+├── created_by (FK - User)
+├── created_at
+└── updated_at

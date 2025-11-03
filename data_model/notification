@@ -1,0 +1,11 @@
+Notification
+├── id (UUID)
+├── user_id (FK)
+├── type (reminder, escalation, approval_request, deadline)
+├── title
+├── message
+├── entity_type
+├── entity_id
+├── is_read
+├── created_at
+└── read_at

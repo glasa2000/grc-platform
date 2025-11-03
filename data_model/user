@@ -1,0 +1,13 @@
+User
+├── id (UUID)
+├── organization_id (FK)
+├── email (unique)
+├── first_name
+├── last_name
+├── role_id (FK)
+├── department
+├── manager_id (FK - self-referencing)
+├── is_active
+├── last_login
+├── mfa_enabled
+└── created_at

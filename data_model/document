@@ -1,0 +1,13 @@
+Document
+├── id (UUID)
+├── organization_id (FK)
+├── title
+├── file_path (S3/storage location)
+├── file_type
+├── file_size
+├── entity_type (policy, risk, issue, control)
+├── entity_id (UUID)
+├── version_number
+├── uploaded_by (FK - User)
+├── uploaded_at
+└── tags (array)

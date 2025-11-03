@@ -1,0 +1,5 @@
+RiskControlMapping
+├── id (UUID)
+├── risk_id (FK)
+├── control_id (FK)
+└── created_at

@@ -1,0 +1,12 @@
+AuditLog
+├── id (UUID)
+├── organization_id (FK)
+├── user_id (FK)
+├── action (create, read, update, delete, approve, export)
+├── entity_type
+├── entity_id
+├── changes (JSON - before/after)
+├── ip_address
+├── user_agent
+├── timestamp
+└── session_id

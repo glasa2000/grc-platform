@@ -1,0 +1,6 @@
+PolicyComplianceMapping
+├── id (UUID)
+├── policy_id (FK)
+├── framework (string)
+├── requirement_id (string)
+└── created_at
